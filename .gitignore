@@ -1,0 +1,13 @@
+# Development
+*.session
+config.ini
+unknown_erros.txt
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+
+# Environment
+.env
