@@ -8,7 +8,10 @@ class Menu:
     def __init__(self):
         raise NotImplementedError("Menu is interface")
 
-    def reply_keyboard(self) -> ReplyKeyboardMarkup:
+    def keyboard(self) -> ReplyKeyboardMarkup:
+        pass
+
+    def one_time_keyboard(self) -> ReplyKeyboardMarkup:
         pass
 
 
