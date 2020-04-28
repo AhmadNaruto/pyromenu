@@ -11,3 +11,8 @@ __pycache__/
 
 # Environment
 .env
+
+# Distribution and Packaging
+build/
+dist/
+*.egg-info
