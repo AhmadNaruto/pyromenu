@@ -18,5 +18,8 @@ class FakeRowTests(TestCase):
         fake_keyboard_row = self.fake_row.keyboard_row()
         self.assertIsInstance(fake_keyboard_row, List)
         for button in fake_keyboard_row:
-            self.assertIsInstance(button, Button)
-        self.assertEqual(fake_keyboard_row, [FakeButton(), FakeButton()])
+            self.assertIsInstance(button, KeyboardButton)
+        self.assertEqual(
+            fake_keyboard_row,
+            [FakeButton().keyboard_button(), FakeButton().keyboard_button()],
+        )
