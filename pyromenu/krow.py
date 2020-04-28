@@ -2,7 +2,7 @@ from typing import List
 
 from pyrogram import KeyboardButton
 
-from interfaces import Row, Button
+from .interfaces import Row, Button
 
 
 class KRow(Row):

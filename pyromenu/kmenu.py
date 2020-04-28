@@ -2,7 +2,7 @@ from typing import List
 
 from pyrogram import ReplyKeyboardMarkup
 
-from interfaces import Menu, Row
+from .interfaces import Menu, Row
 
 
 class KMenu(Menu):

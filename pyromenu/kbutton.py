@@ -1,7 +1,7 @@
 from pyrogram import KeyboardButton, Filters
 from pyrogram.client.filters.filter import Filter
 
-from interfaces import Button
+from .interfaces import Button
 
 
 class KButton(Button):
