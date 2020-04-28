@@ -13,7 +13,7 @@ def requirements():
 
 setup(
     name="pyromenu",
-    version="0.8",
+    version="1.1",
     author="LidaRandom",
     author_email="bahoralievdev@yandex.com",
     description="Object-oriented way to build telegram keyboard-menus",
