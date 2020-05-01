@@ -1,4 +1,4 @@
-# Pyromenu
+# Pyromenu [![Build Status](https://travis-ci.com/IlhomBahoraliev/pyromenu.svg?branch=master)](https://travis-ci.com/IlhomBahoraliev/pyromenu)
 ``` python
 from pyrogram import Client, Filters, ReplyKeyboardRemove
 from pyromenu import KButton, KRow, KMenu
